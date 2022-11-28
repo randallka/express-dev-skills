@@ -10,15 +10,8 @@ const skills = [
     getOne, 
     create,
     deleteOne,
-    // edit,
   };
   
-//   function edit(id, name, learned) {  
-//     const idx = skills.findIndex(skill => skill.id === parseInt(id)); 
-//     const skill = skills[idx];
-//     skill.skill = name; 
-//     skill.learned = learned; 
-//   }
   function deleteOne(id) { 
     const idx = skills.findIndex(skill => skill.id === parseInt(id)); 
     skills.splice(idx, 1);
