@@ -7,6 +7,7 @@ router.get('/new', skillsController.new);
 router.get('/:id', skillsController.show);
 router.post('/', skillsController.create);
 router.delete('/:id', skillsController.delete); 
-
+router.get('/:id/edit', skillsController.edit);
+router.put('/:id', skillsController.update);
 module.exports = router;
   

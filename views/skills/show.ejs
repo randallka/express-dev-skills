@@ -12,5 +12,6 @@
     <h1>Skill info:</h1>
     <h3 class="underlined"><%= skill.skill %> </h3>
     <h3>Learned: <span class="<%= skill.learned ? 'learned' : 'not-learned' %>"><%= skill.learned ? 'Yes' : 'No' %></span></h3>
+   <a href="/skills/<%= skill.id %>/edit">Edit skill</a> 
 </body>
 </html>
